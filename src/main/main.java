@@ -76,27 +76,35 @@ public class main {
         /*
         Iterator Example
          */
-        List<Integer> myList = arrayListDemo();
-        iteratorDemo(myList);
-    }
-    public static void iteratorDemo(List<Integer> list1) {
-        Iterator<Integer> iterator = list1.iterator();
-        while (iterator.hasNext()) {
-            //Return the next element of relevant type with next()
-            int element = iterator.next();
-            System.out.println("element: " + element);
+//        List<Integer> myList = arrayListDemo();
+//        iteratorDemo(myList);
+//    }
+//    public static void iteratorDemo(List<Integer> list1) {
+//        Iterator<Integer> iterator = list1.iterator();
+//        while (iterator.hasNext()) {
+//            //Return the next element of relevant type with next()
+//            int element = iterator.next();
+//            System.out.println("element: " + element);
+//
+//        }
+//        list1.forEach(System.out::println);
+//
+//    }
+//
+//    public static List<Integer> arrayListDemo() {
+//        List<Integer> list = new ArrayList<>();
+//        list.add(4);
+//        list.add(1);
+//        list.add(0);
+//        list.add(5);
+//        list.add(7);
+//        return list;
+//    }
+        /*
+        ListIterator
+         */
+        //Specific to only lists
 
-        }
-
-    }
-
-    public static List<Integer> arrayListDemo() {
-        List<Integer> list = new ArrayList<>();
-        list.add(4);
-        list.add(1);
-        list.add(0);
-        list.add(5);
-        list.add(7);
-        return list;
+        
     }
 }
